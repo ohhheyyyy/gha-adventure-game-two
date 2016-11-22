@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var inquirer = require('inquirer');
 
@@ -35,6 +35,6 @@ function play(node) {
 }
 
 play(game.startingPoint)
-    .then(function(last) {
+    .then(function() {
         console.log('Game over.'); // This will run after the Promise.resolve() method is called
     });
