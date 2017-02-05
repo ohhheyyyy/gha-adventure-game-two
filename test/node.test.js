@@ -34,7 +34,7 @@ describe('Node', function() {
     });
 
     it("adds a new connection to the node's connections array", function() {
-      expect(hallway.connections).to.have.length(1);      
+      expect(hallway.connections).to.have.length(1);
       expect(hallway.connections[0]).to.be.instanceOf(Connection);
     });
 

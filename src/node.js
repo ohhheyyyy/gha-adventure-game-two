@@ -10,7 +10,7 @@ var Node = function(title, text) {
     if (!this.conditions.hasOwnProperty(command)) {
       this.conditions[command] = new Connection(destination, command);
     } else {
-      throw new Error("Duplicate connections not allowed.");
+      throw new Error('Duplicate connections not allowed.');
     }
   };
 };
